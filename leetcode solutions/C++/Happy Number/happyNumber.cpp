@@ -5,7 +5,7 @@ public:
 
     int digitSquareSum(int n) {
         int sum = 0, tmp;
-        while (n) {
+        while (n != 0) {
             tmp = n % 10;
             sum += tmp * tmp;
             n /= 10;
